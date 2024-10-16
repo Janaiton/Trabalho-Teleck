@@ -1,0 +1,41 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(93, 71, 128, 0.781);              
+    }
+.Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 4px rgb(53, 65, 92) solid;
+    border-radius: 10px;
+    padding: 7px;
+
+}
+
+.caixa {
+    width: 150px;             /* Largura da caixa */
+    height: 150px;            /* Altura da caixa */
+    background-color: #3b3e4b; /* Cor de fundo */
+    color: white;             /* Cor do texto */
+    border: 2px solid #7d2e5f; /* Borda da caixa */
+    border-radius: 10px;      /* Bordas arredondadas */
+    display: flex;            /* Para centralizar o conteúdo */
+    align-items: center;      /* Alinhamento vertical */
+    justify-content: center;  /* Alinhamento horizontal */
+    font-family: Arial, sans-serif; /* Fonte */
+}
+h1 {
+    box-sizing: border-box;
+    width:500px;
+    height:80px;
+    border:5px solid rgb(104, 82, 82);
+    padding-top: 15px;    
+    background-color: rgb(72, 104, 104);
+    text-align: center;    
+}
+p { 
+   text-align: center;
+
+}
+
+
